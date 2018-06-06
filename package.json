@@ -1,0 +1,18 @@
+{
+  "name": "react_tmp",
+  "version": "1.0.0",
+  "description": "продвинутый шаблон реакт приложения ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "comments": {
+    "1": "в dependencies перед номерами версий не должно быть ^ или ~"
+  },
+  "dependencies": {
+    "react": "16.4.0"
+  },
+  "devDependencies": {}
+}
