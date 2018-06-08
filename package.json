@@ -12,7 +12,15 @@
     "1": "в dependencies перед номерами версий не должно быть ^ или ~"
   },
   "dependencies": {
-    "react": "16.4.0"
+    "babel-core": "6.26.3",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "1.7.0",
+    "babel-preset-stage-0": "6.24.1",
+    "babel-register": "6.26.0",
+    "koa": "2.5.1",
+    "koa-bodyparser": "4.2.1",
+    "react": "16.4.0",
+    "webpack": "4.11.1"
   },
   "devDependencies": {}
 }
