@@ -11,11 +11,11 @@ if (process.env.NODE_ENV === 'production'){
         },
         database: {
             'master': {
-                host: '',
-                user: '',
-                password: '',
-                port: '',
-                database: '',
+                host: '91.228.127.194',
+                user: 'root',
+                password: 'Kiev123456',
+                port: '3306',
+                database: 'bitjob',
                 connectionLimit: 10
             },
             'slave': {
@@ -69,11 +69,11 @@ if (process.env.NODE_ENV === 'production'){
         },
         database: {
             'master': {
-                host: '',
-                user: '',
-                password: '',
-                port: '',
-                database: '',
+                host: 'localhost',
+                user: 'root',
+                password: '77mm=SQL',
+                port: '3306',
+                database: 'myDB',
                 connectionLimit: 10
             },
             'slave': {

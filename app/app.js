@@ -16,4 +16,5 @@ app.use(router.allowedMethods());
 
 app.listen(config.server.port, function () {
     console.log('listen on port' + config.server.port);
+    require('./models');
 });
